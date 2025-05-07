@@ -1,0 +1,121 @@
+SECTION - B - PROMPT -
+
+Analyze the following GitHub repository and create a professional README.md file with the following sections:
+
+Project Title & Description, Provide a short, Features , Installation Instructions , Usage , Folder Structure, Contributing , License , Author & Contact , Repository link: https://github.com/Neerajlodhi143/new-two
+
+Focus on clarity, good formatting (Markdown), and easy navigation. Use emojis or headings to improve readability.
+
+OUTPUT -
+
+# 🧠 Streamlit-Based AI Prompt Application
+
+This project is a Streamlit web application designed to interact with AI models through prompt engineering. It provides a user-friendly interface for crafting prompts, managing data, and displaying AI-generated responses.
+
+---
+
+## ✨ Features
+
+- **Interactive Prompt Interface**: Easily input and submit prompts to AI models.
+- **Database Integration**: Store and retrieve prompt-response pairs for analysis.
+- **Modular Codebase**: Separated concerns for database operations and model utilities.
+- **Streamlit Deployment**: Quickly deploy and share the application with others.
+
+---
+
+## 🛠️ Installation Instructions
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Neerajlodhi143/new-two.git
+   cd new-two
+   ```
+
+2. **Create a Virtual Environment** (optional but recommended):
+   ```bash
+   python -m venv venv
+   # Activate the virtual environment:
+   # On Windows:
+   venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
+   ```
+
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Initialize the Database**:
+   ```bash
+   python init_database.py
+   ```
+
+5. **Run the Application**:
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## 🚀 Usage
+
+- **Submit Prompts**: Enter your prompt in the provided text area and submit to receive AI-generated responses.
+- **View History**: Access previously submitted prompts and their corresponding responses.
+- **Analyze Responses**: Utilize the stored data for further analysis or training purposes.
+
+---
+
+## 📁 Folder Structure
+
+```
+new-two/
+├── .streamlit/           # Streamlit configuration files
+├── data/                 # Directory for storing application data
+├── .replit/              # Replit configuration files
+├── app.py                # Main Streamlit application script
+├── db_utils.py           # Database utility functions
+├── init_database.py      # Script to initialize the database
+├── model_utils.py        # AI model interaction utilities
+├── pyproject.toml        # Project metadata and dependencies
+├── replit.nix            # Replit environment configuration
+├── uv.lock               # Dependency lock file
+└── generated-icon.png    # Application icon
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. **Fork the Repository**: Click the 'Fork' button at the top right of the repository page.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Create a Pull Request**: Navigate to your fork on GitHub and open a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author & Contact
+
+**Neeraj Lodhi**  
+🔗 [GitHub Profile](https://github.com/Neerajlodhi143)
+
+For any suggestions, feedback, or queries, feel free to reach out via [GitHub Issues](https://github.com/Neerajlodhi143/new-two/issues).
