@@ -1,0 +1,203 @@
+Assessment Section-A
+A - PROMPT - Content Creation
+
+Role 	  - Content Creator
+Objective - Create a blog Post for wikipedia
+Subject   - DDOs Attack
+Example	  - Title, introduction, body, conclusion
+
+Create a content using this framework
+
+OUTPUT -
+
+
+Certainly! Below is a **Wikipedia-style blog post** created using the **ROSE framework** (Role, Objective, Steps, Example) on the subject **DDoS Attack**:
+
+---
+
+## 🟦 **R – Role**
+
+You are a **Content Creator** tasked with writing informative, neutral, and encyclopedic content suitable for a platform like **Wikipedia**.
+
+---
+
+## 🟩 **O – Objective**
+
+Create a comprehensive and factual **blog post/article** on **DDoS (Distributed Denial-of-Service) attacks**, covering its definition, how it works, historical context, impact, and mitigation strategies, in a format aligned with Wikipedia standards.
+
+---
+
+## 🟨 **S – Steps**
+
+1. Start with a clear and concise **title**.
+2. Write an **introduction** defining the term and summarizing its relevance.
+3. Create a **detailed body** that includes:
+
+   * How a DDoS attack works
+   * Common types of DDoS attacks
+   * Notable examples from history
+   * Consequences for individuals, businesses, and governments
+   * Prevention and mitigation techniques
+4. Conclude with a summary and reference to ongoing research or protection practices.
+5. Maintain a neutral, objective, and fact-based tone.
+
+---
+
+## 🟥 **E – Example Content**
+
+### **📘 Title:**
+
+**Distributed Denial-of-Service (DDoS) Attack**
+
+---
+
+### **🔹 Introduction:**
+
+A **Distributed Denial-of-Service (DDoS) attack** is a malicious attempt to disrupt the normal traffic of a targeted server, service, or network by overwhelming it with a flood of internet traffic. These attacks have become one of the most common and powerful tools used in cyber warfare, activism, and crime.
+
+---
+
+### **📖 Body:**
+
+#### How It Works
+
+A DDoS attack leverages multiple compromised computer systems as sources of traffic, often using a botnet—a network of hijacked internet-connected devices. These machines send simultaneous requests to the target, causing it to slow down or crash entirely.
+
+#### Types of DDoS Attacks
+
+* **Volumetric Attacks**: Overwhelm bandwidth with data floods.
+* **Protocol Attacks**: Exploit weaknesses in network protocols.
+* **Application Layer Attacks**: Target specific applications (e.g., HTTP, DNS).
+
+#### Notable Incidents
+
+* In **2016**, the Mirai botnet attacked Dyn DNS service, disrupting major websites like Twitter, Netflix, and Reddit.
+* DDoS attacks have also been used as political weapons, targeting government or news websites during times of conflict or protest.
+
+#### Impact
+
+DDoS attacks can lead to service outages, revenue loss, reputational damage, and even legal consequences for affected organizations. For critical infrastructure, the results can be severe.
+
+#### Mitigation Techniques
+
+* **Rate limiting** and **traffic filtering**
+* **Firewalls and intrusion detection systems**
+* **Cloud-based DDoS protection services**
+* **Incident response planning and testing**
+
+---
+
+### **🔚 Conclusion:**
+
+DDoS attacks remain a significant threat in the digital age. As attack methods evolve, so must defense mechanisms. Collaboration between organizations, security experts, and governments is key to combating this persistent cyber threat.
+
+---
+B - PROMPT - code generation
+
+role- Web Developer
+objective- Create a web site
+subject- I want to create  web page like a google form
+example- <!DOCTYPE html>
+
+OUTPUT -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f3f4;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .form-container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .options {
+      display: flex;
+      flex-direction: column;
+    }
+    .submit-btn {
+      background-color: #1a73e8;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .submit-btn:hover {
+      background-color: #0c5fd0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Feedback Form</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group">
+        <label>How did you hear about us?</label>
+        <div class="options">
+          <label><input type="radio" name="source" value="social" required /> Social Media</label>
+          <label><input type="radio" name="source" value="friend" /> Friend</label>
+          <label><input type="radio" name="source" value="ads" /> Advertisement</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Topics of Interest</label>
+        <div class="options">
+          <label><input type="checkbox" name="interest" value="html" /> HTML</label>
+          <label><input type="checkbox" name="interest" value="css" /> CSS</label>
+          <label><input type="checkbox" name="interest" value="javascript" /> JavaScript</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="comments">Additional Comments</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
